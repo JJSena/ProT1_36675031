@@ -25,12 +25,13 @@ body {
         padding: 20px; /* espaciado para la sección de 20 pixeles */}
         footer {
         background-color: #4caf50; /* Color de fondo del footer */
-        color: #fff;
+        color: #ffffff;
         padding: 20px 0; }
         .footer-content {
         max-width: 800px; /* Ancho máximo del contenido del footer */
         margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
-        text-align: center; }
+        text-align: center;
+    color: #fff; }
 
         nav {
             background-color: #4caf50;
@@ -68,7 +69,7 @@ body {
             
             nav ul li a {
                 text-decoration: none;
-                color: #333; /* Color de texto por defecto */
+                color: #ac0505; /* Color de texto por defecto */
                 transition: color 0.3s ease; /* Transición suave del color */
             }
             
@@ -78,6 +79,6 @@ body {
             img {
                 display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
                 margin: 0 auto; /* Centrar las imágenes horizontalmente */
-                max-width: 35%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+                max-width: 200px; /* Asegurar que las imágenes no excedan el ancho del contenedor */
                 border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
                 border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */}
